@@ -1,2 +1,82 @@
-
 /* Your CSS Code here. */
+ body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main Container */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        /* Latest News Section */
+        .latest-news-section {
+            background-color: white;
+            width: 20%;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .latest-news-section h3 {
+            margin-top: 0;
+        }
+.latest-news-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .latest-news-section li {
+            margin-bottom: 10px;
+        }
+
+        /* Main Article Section */
+        .main-article-section {
+            background-color: white;
+            width: 50%;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .main-article-section h2 {
+            margin-top: 0;
+        }
+
+        /* Pictorial News Section */
+        .pictorial-news-section {
+            background-color: white;
+            width: 20%;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .pictorial-news-section img {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+ .holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .holder .item {
+            flex: 1 1 30%;
+            margin: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
